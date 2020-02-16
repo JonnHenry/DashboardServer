@@ -1,14 +1,28 @@
 import os
-import json
 
 dir = os.path.dirname(__file__)
-urlData = os.path.abspath(os.path.join(dir,'../data/DatosEstadisticos.json'))
 
+#Para el dashboard de los graficos
+urlDataDashbard = os.path.abspath(os.path.join(dir,'../data/aprobadosReprobadosDashboard.json'))
 try:
-    with open(urlData) as file:
-        data = json.load(file)
+    with open(urlDataDashbard) as file:
+        dataDashboard = json.load(file)
 except:
-    data = {}
+    dataDashboard = {}
 
-def getDataAprobReprobados():
-    return data
+def getDataAprobadosReprobadosDashboard():
+    return dataDashboard
+
+
+
+#Para las tablas del dashboard
+urlDataTable = os.path.abspath(os.path.join(dir,'../data/aprobadosReprobadosTabla.json'))
+try:
+    with open(urlDataTable) as file:
+        dataTabla = json.load(file)
+except:
+    dataTabla = {}
+
+
+def getDataAprobadosReprobadosTabla():
+    return dataTabla
