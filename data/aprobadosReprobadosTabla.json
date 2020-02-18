@@ -1,14 +1,153 @@
 {
-	"aprobados": { 
-		"video_lectura":{"1":39,"2":30,"3":37,"4":41,"5":41,"6":40,"7":41,"8":35,"9":39,"10":37,"11":39,"12":55},
-		"num_e_formativa":{"1":16,"2":10,"3":11,"4":10,"5":12,"6":10,"7":7,"8":11,"9":15,"10":5,"11":15,"12":30},
-		"num_e_sumativa":{"1":31,"2":23,"3":26,"4":26,"5":25,"6":22,"7":22,"8":24,"9":24,"10":23,"11":25,"12":44}
-	},
-	"reprobados": {
-		"video_lectura": {"1":20,"2":21,"3":22,"4":23,"5":23,"6":23,"7":22,"8":23,"9":20,"10":26,"11":26,"12":26},
-		"num_e_formativa": {"1":10,"2":8,"3":9,"4":8,"5":8,"6":7,"7":7,"8":9,"9":7,"10":9,"11":8,"12":7},
-		"num_e_sumativa": {"1":15,"2":16,"3":17,"4":19,"5":16,"6":14,"7":14,"8":16,"9":15,"10":18,"11":16,"12":24}
-	}
+	"aprobados": [
+		{
+			"semana": 1,
+			"video_lectura": 39,
+			"num_e_formativa": 16,
+			"num_e_sumativa": 31
+		},
+		{
+			"semana": 2,
+			"video_lectura": 30,
+			"num_e_formativa": 10,
+			"num_e_sumativa": 23
+		},
+		{
+			"semana": 3,
+			"video_lectura": 37,
+			"num_e_formativa": 11,
+			"num_e_sumativa": 26
+		},
+		{
+			"semana": 4,
+			"video_lectura": 41,
+			"num_e_formativa": 10,
+			"num_e_sumativa": 26
+		},
+		{
+			"semana": 5,
+			"video_lectura": 41,
+			"num_e_formativa": 12,
+			"num_e_sumativa": 25
+		},
+		{
+			"semana": 6,
+			"video_lectura": 40,
+			"num_e_formativa": 10,
+			"num_e_sumativa": 22
+		},
+		{
+			"semana": 7,
+			"video_lectura": 41,
+			"num_e_formativa": 7,
+			"num_e_sumativa": 22
+		},
+		{
+			"semana": 8,
+			"video_lectura": 35,
+			"num_e_formativa": 11,
+			"num_e_sumativa": 24
+		},
+		{
+			"semana": 9,
+			"video_lectura": 39,
+			"num_e_formativa": 15,
+			"num_e_sumativa": 24
+		},
+		{
+			"semana": 10,
+			"video_lectura": 37,
+			"num_e_formativa": 5,
+			"num_e_sumativa": 23
+		},
+		{
+			"semana": 11,
+			"video_lectura": 39,
+			"num_e_formativa": 15,
+			"num_e_sumativa": 25
+		},
+		{
+			"semana": 12,
+			"video_lectura": 55,
+			"num_e_formativa": 30,
+			"num_e_sumativa": 44
+		}
+	] 
+	,
+	"reprobados": [
+		{
+			"semana": 1,
+			"video_lectura": 20,
+			"num_e_formativa": 10,
+			"num_e_sumativa": 15
+		},
+		{
+			"semana": 2,
+			"video_lectura": 21,
+			"num_e_formativa": 8,
+			"num_e_sumativa": 16
+		},
+		{
+			"semana": 3,
+			"video_lectura": 22,
+			"num_e_formativa": 9,
+			"num_e_sumativa": 17
+		},
+		{
+			"semana": 4,
+			"video_lectura": 23,
+			"num_e_formativa": 8,
+			"num_e_sumativa": 19
+		},
+		{
+			"semana": 5,
+			"video_lectura": 23,
+			"num_e_formativa": 8,
+			"num_e_sumativa": 16
+		},
+		{
+			"semana": 6,
+			"video_lectura": 23,
+			"num_e_formativa": 7,
+			"num_e_sumativa": 14
+		},
+		{
+			"semana": 7,
+			"video_lectura": 22,
+			"num_e_formativa": 7,
+			"num_e_sumativa": 14
+		},
+		{
+			"semana": 8,
+			"video_lectura": 23,
+			"num_e_formativa": 9,
+			"num_e_sumativa": 16
+		},
+		{
+			"semana": 9,
+			"video_lectura": 20,
+			"num_e_formativa": 7,
+			"num_e_sumativa": 15
+		},
+		{
+			"semana": 10,
+			"video_lectura": 26,
+			"num_e_formativa": 9,
+			"num_e_sumativa": 18
+		},
+		{
+			"semana": 11,
+			"video_lectura": 26,
+			"num_e_formativa": 8,
+			"num_e_sumativa": 16
+		},
+		{
+			"semana": 12,
+			"video_lectura": 26,
+			"num_e_formativa": 7,
+			"num_e_sumativa": 24
+		}
+	]
 
 	
 }
