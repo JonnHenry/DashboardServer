@@ -82,4 +82,4 @@ def resultadoGeneral(dicResult):
     else:
         return False
 
-app.run()
+app.run(port=80)
