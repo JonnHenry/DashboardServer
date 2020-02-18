@@ -2,8 +2,23 @@ from servicios.aprobadosReprobadosDatos import getDataAprobadosReprobadosDashboa
 from servicios.prediccionClasificacion import prediccionClasificacion
 
 from flask import Flask, jsonify, request
+from config import *
 from flask_cors import CORS
+from decouple import config as config_decouple
 import json
+
+def create_app(enviroment):
+    app = Flask(__name__)
+
+    app.config.from_object(enviroment)
+
+    return app
+
+enviroment = config['development']
+if config_decouple('PRODUCTION', default=False):
+    enviroment = config['production']
+
+app = create_app(enviroment)
 
 app = Flask(__name__)
 CORS(app)
@@ -67,8 +82,4 @@ def resultadoGeneral(dicResult):
     else:
         return False
 
-
-app.run(debug=True,port=80)
-
-
-    
+app.run()
