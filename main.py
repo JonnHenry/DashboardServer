@@ -7,6 +7,8 @@ import json
 
 app = Flask(__name__)
 CORS(app)
+app.config['TESTING'] = True
+
 
 @app.route('/', methods=['GET'])
 def ping():
@@ -67,4 +69,7 @@ def resultadoGeneral(dicResult):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8080)
+    app.run(debug=True,port=80)
+
+
+    
